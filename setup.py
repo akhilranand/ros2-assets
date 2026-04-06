@@ -26,8 +26,8 @@ setup(
         'console_scripts': [
 #........................................................
 
-            "py_node = my_py_pkg.my_first_node:main"
-            
+            "executable_name = pkg_name.node_file_name:main"
+
 #........................................................
         ],
     },

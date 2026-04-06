@@ -11,11 +11,11 @@ find_package(rclcpp REQUIRED)
 
 
 #........................................................
-add_executable(cpp_node src/my_first_node.cpp)
-ament_target_dependencies(cpp_node rclcpp)
+add_executable(executable_name  src/node_file_name.cpp)
+ament_target_dependencies(executable_name  rclcpp)
 
 install(TARGETS
-  cpp_node
+  executable_name 
   DESTINATION lib/${PROJECT_NAME}
 )
 #........................................................
